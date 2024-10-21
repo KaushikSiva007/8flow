@@ -41,9 +41,9 @@ To run this project locally, follow these steps:
 4. Test via postman/curl the endpoints defined in open api spec
 ```
 API Endpoints
-Method	Endpoint	Description
-POST	/api/cupcakes	Add a new cupcake
-GET	/api/cupcakes	Get a list of all cupcakes
+Method	Endpoint	   Description
+POST	/api/cupcakes	   Add a new cupcake
+GET	/api/cupcakes	   Get a list of all cupcakes
 GET	/api/cupcakes/:id	Get a cupcake by ID
 PUT	/api/cupcakes/:id	Update a cupcake by ID
 DELETE	/api/cupcakes/:id	Delete a cupcake by ID
