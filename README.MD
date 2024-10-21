@@ -58,3 +58,16 @@ POST /api/cupcakes
     "ingredients": ["flour", "sugar", "Vanilla"]
 }
 ```
+
+Files:
+```
+index.js: The main entry point of the application where the server is initialized and configured.
+
+routes/cupcakeRoutes.js: Contains route definitions specific to cupcake-related endpoints.
+
+controllers/cupcakeController.js: Handles the logic for processing cupcake-related requests and responses.
+
+models/cupcakeModel.js: Defines the models related to cupcakes.
+
+utils/errorHandler.js: Contains custom error-handling middleware for managing application errors.
+```
