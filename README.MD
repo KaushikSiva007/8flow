@@ -34,7 +34,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/KaushikSiva007/8flow.git
 
-2. cd 8flow
+2. ```cd 8flow```
 2. ```npm install```
 5. ```npm test``` to run test cases
 3. ```node node src/index.js```server starts
@@ -48,4 +48,13 @@ GET	/api/cupcakes/:id	Get a cupcake by ID
 PUT	/api/cupcakes/:id	Update a cupcake by ID
 DELETE	/api/cupcakes/:id	Delete a cupcake by ID
 ```
-
+Example:
+```
+POST /api/cupcakes
+{
+    "name": "Vanilla",
+    "price": 6.74,
+    "description": "A Vanilla special cupcake",
+    "ingredients": ["flour", "sugar", "Vanilla"]
+}
+```
