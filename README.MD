@@ -34,6 +34,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/KaushikSiva007/8flow.git
 
+2. cd 8flow
 2. ```npm install```
 3. ```node node src/index.js```server starts
 4. Test via postman/curl the endpoints defined in open api spec
