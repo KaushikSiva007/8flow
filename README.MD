@@ -36,6 +36,7 @@ To run this project locally, follow these steps:
 
 2. cd 8flow
 2. ```npm install```
+5. ```npm test``` to run test cases
 3. ```node node src/index.js```server starts
 4. Test via postman/curl the endpoints defined in open api spec
 ```
@@ -48,4 +49,3 @@ PUT	/api/cupcakes/:id	Update a cupcake by ID
 DELETE	/api/cupcakes/:id	Delete a cupcake by ID
 ```
 
-5. ```npm test``` to run test cases
