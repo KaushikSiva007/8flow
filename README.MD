@@ -34,7 +34,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/kaushiksiva/cupcake-store-api.git
+   git clone https://github.com/KaushikSiva007/8flow.git
 
 2. ```npm install```
 3. ```node node src/index.js```server starts
