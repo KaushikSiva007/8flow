@@ -9,8 +9,6 @@ Welcome to the Cupcake Store API! This project provides a RESTful API for managi
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [License](#license)
-- [Contributing](#contributing)
 
 ## Features
 
