@@ -34,8 +34,17 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/kaushiksiva/cupcake-store-api.git```
+   git clone https://github.com/kaushiksiva/cupcake-store-api.git
 
 2. ```npm install```
 3. ```node node src/index.js```server starts
 4. Test via postman/curl the endpoints defined in open api spec
+API Endpoints
+Method	Endpoint	Description
+POST	/api/cupcakes	Add a new cupcake
+GET	/api/cupcakes	Get a list of all cupcakes
+GET	/api/cupcakes/:id	Get a cupcake by ID
+PUT	/api/cupcakes/:id	Update a cupcake by ID
+DELETE	/api/cupcakes/:id	Delete a cupcake by ID
+
+5. ```npm test``` to run test cases
